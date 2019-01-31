@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Home</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+ <style>
+ .button {
+  background-color: Crimson;  
+  border-radius: 5px;
+  color: white;
+  padding: .5em;
+  text-decoration: none;
+}
+
+.button:focus,
+.button:hover {
+  background-color: FireBrick;
+  color: White;
+  text-decoration: none;
+}
+
+ .background{
+ 	background-image: url("image.jpg");
+ 	background-size: cover;
+ 	background-repeat: no-repeat;
+ }
+ .heading{
+ 	font-family: "Oswald"; 
+ 	color: white;
+  	text-align: center;
+  	padding-top:200px; 
+  	font-size: 80px;
+ }
+ 
+ .oswald {
+ 	font-family: "Oswald";
+ 	font-size: 40px;
+ }
+ }
+</style>
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+  
+  <a class="navbar-brand"><img src="logo.jpg" height=40 width=70><span style="color:white; margin-left: 5px">C-Planner</span></a>
+ 
+  
+  <ul class="navbar-nav ml-auto">
+    <li class="nav-item">
+      <a class="nav-link" href="index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="student.jsp">Student Portal</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="teacher.jsp">Teacher Portal</a>
+    </li>
+  </ul>
+</nav>
+<div class="background">
+	<div align="center">
+		<h1 class="heading">C-PLANNER</h1>
+		<div style="width: 50%; height: 10px; background-color: #ff7777;"></div>
+		<br/><br/>
+		<font color="white">
+		The class planner for teachers across the globe
+		</font>
+		<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+	</div>
+</div>
+<div class="row">
+    <div class="col-sm-4">
+      <br/><br/>
+    	<center>
+    	<img src="1.jpg" alt="error" />
+    	<br/><br/>
+      <span class="oswald">
+			Get real time updates on your class schedule
+    	</span>
+    	<br/><br/>
+    	Get real time updates based upon your classes, with any changes to the schedule made right-away. No guesswork or confusion.
+    	</center>
+    </div>
+    <div class="col-sm-4">
+    	<br/>
+      <center>
+    	<img src="2.png" alt="error" />
+      <br/>
+    	<span class="oswald">
+      Fast and Easy
+    	</span>
+    	<br/><br/>
+    	Getting to know your time table is faster and scheduling your day is easier than ever. Just give your class name and section and get the updated schedule right-away.
+    	</center>
+    </div>
+    <div class="col-sm-4">
+    	<br/><br/>
+      <center>
+    	<img src="3.png" alt="error" />
+    	<br/><br/><br/><br/>
+      <span class="oswald">
+			Great for teachers
+    	</span>
+    	<br/><br/><br/>
+    	Also C-Planner greatly helps the teachers to update the time table according to their wish and schedule it according to their wants.
+      Less Hassle. More productivity :-) 
+    	</center>
+    </div>
+  </div>
+  <br/><br/><br/>
+  <div class="row" style="margin-left: 100px; margin-right: 100px;">
+  	<div class="col-sm-2">
+	  	<br/><br/><br/><br/><br/><br/>
+      <img src="4.png" height="180px" width="140px" alt="error" />
+	</div>
+	<div class="col-sm-4">
+    <br/><br/><br/><br/><br/><br/>
+		<h2> For Students </h2>
+		<br/>
+		To know today's time table students need to enter their class and section here.
+		<br/><br/>
+		<a href="student.jsp" class="button js-button" role="button">Student Portal</a>
+	</div>
+	<div class="col-sm-2">
+      <br/><br/><br/><br/><br/><br/>
+	  	<img src="5.jpg" height="180px" width="140px" alt="error" />
+	</div>
+	<div class="col-sm-4">
+    <br/><br/><br/><br/><br/><br/>
+		<h2> For Teachers </h2>
+		<br/>
+		To make changes as well as look at available slots teachers can plan their schedule here.
+		<br/><br/>
+		<a href="teacher.jsp" class="button js-button" role="button">Teacher Portal</a>
+	</div>
+	<div style="padding: 20px; padding-top: 50px; font-size: 20px;">
+		The students can enter their class details and get to know about their classes for today while teachers can arrange their time table and make changes according to their will and change classes in any order they want to with the help of the planner. They can look for empty available slots and can plan a day or even the whole week at once. The changes will be reflected to the time table as they are made. Alll this is done in real time. Just get going.
+	</div>
+  </div>
+</body>
+</html>
